@@ -1,0 +1,11 @@
+.area{
+  background-color: #666;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.area p {
+  color: #fff;
+  line-height: 1.8;
+  font-size: 18px;
+}
