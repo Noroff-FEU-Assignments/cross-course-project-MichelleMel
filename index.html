@@ -5,7 +5,7 @@
     <title>My first website</title>
   </head>
   <body>
-    <h1>Hello world!!</h1>
+    <!-- <h1>Hello world!!</h1>
     <p>Welcome to my first website.</p>
     <h2>Web Security</h2>
     <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
@@ -18,6 +18,279 @@
         - Regulary test your website security.<br/> 
         Its importante to note that web security is an ongoing process that requires constant attention and adaptation to stay ahead of evolving threats.
       </p>
+    </div> -->
+    <header>
+      <nav id="nav">
+        <a href="#" class="logo"><img src="assets/log.png" /></a>
+        <ul class="nav-menu">
+          <li class="nav-item"><a class="nav-link" href="#">Featured</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Popular</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">All Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Top Week</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <div class="indicator"></div>
+          <div class="separator"></div>
+          <li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">REGISTER</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <a class="play" onclick="toggleVideo()"
+      >Watch<img src="assets/play.svg" />Trailer</a
+    >
+    <div class="banner">
+      <img src="assets/banner.png" class="bg" />
+
+      <div class="content">
+        <h3>Vivamus sit amet interdum elit</h3>
+        <h1>Mancing Mania The Movie</h1>
+        <h3>On the air 01 . 11 . 20</h3>
+      </div>
     </div>
+    <div class="matrix">
+      <div class="trailer">
+        <video src="assets/video.mp4" controls="true"></video>
+        <img src="assets/close.svg" class="close" onclick="toggleVideo()" />
+      </div>
+
+      <div class="carousel">
+        <button class="btn-arrow btn-arrow-left">
+          <img src="assets/left.svg" alt="left arrow" />
+        </button>
+        <button class="btn-arrow btn-arrow-right">
+          <img src="assets/right.svg" alt="right arrow" />
+        </button>
+        <div class="inner">
+          <ul class="container">
+            <li class="slide slide-1">
+              <div class="carouseltext">
+                <span>Vivamus sit amet</span>
+                <h1>The Lorem Ipsum Dolor Sit Amet</h1>
+                <div class="star">
+                  <img src="assets/star.svg" alt="star rating" />
+                  <img src="assets/star.svg" alt="star rating" />
+                  <img src="assets/star.svg" alt="star rating" />
+                  <img src="assets/star.svg" alt="star rating" />
+                  <img src="assets/star.svg" alt="star rating" />
+                  <span> 5.0</span>
+                  <span>|</span>
+                  <span>2h 13m</span>
+                </div>
+                <span>Drama, Action and Adventure</span>
+                <div class="buttontrailer">
+                  <a class="playcarousel" onclick="toggleVideo()">
+                    Watch Trailer
+                  </a>
+                  <a class="buttoncarousel" onclick="toggleVideo()">
+                    Watch Full Movie
+                  </a>
+                </div>
+              </div>
+              <div class="carouselimage">
+                <img src="assets/avatar.png" alt="" />
+              </div>
+            </li>
+            <li class="slide slide-2">
+              <h1>SLIDE 2</h1>
+            </li>
+            <li class="slide slide-3">
+              <h1>SLIDE 3</h1>
+            </li>
+          </ul>
+        </div>
+        <div class="dots"></div>
+      </div>
+      <div class="containerCard">
+        <h1>POPULAR RIGHT NOW</h1>
+        <div class="wraper">
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/wakanda.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Sci-Fi, Adventure, Drama</spam>
+              <spam><i>7.1</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/menu.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Comedy, Horror, Thriller</spam>
+              <spam><i>7.5</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/wend.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Comedy, Family, Mystery</spam>
+              <spam><i>8.3</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/adam.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Action, Fantasy, Sci-Fi</spam>
+              <spam><i>6.3</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/violent.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Comedy, Crime</spam>
+              <spam><i>7.1</i></spam>
+            </div>
+          </div>
+        </div>
+        <div class="wraper">
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/hulk.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Comedy,Adventure, Drama</spam>
+              <spam><i>7.1</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/tar.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Drama, Music</spam>
+              <spam><i>7.1</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/spirited.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Comedy, Family, Musical</spam>
+              <spam><i>5.4</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/king.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Action, Drama, History</spam>
+              <spam><i>7.1</i></spam>
+            </div>
+          </div>
+          <div class="cardCarousel">
+            <div class="imgBx">
+              <img src="assets/terrifier.png" />
+            </div>
+            <div class="contentBx">
+              <spam>Horror</spam>
+              <spam><i>7.1</i></spam>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carouselTwo">
+      <h1>ALL CATEGORIES</h1>
+      <div class="slider">
+        <div class="slider-inner">
+          <div class="slider-item">
+            <div class="box">
+              <img src="assets/wakanda.png" alt="right arrow" />
+            </div>
+            <h3>ACTION</h3>
+          </div>
+          <div class="slider-item">
+            <div class="box">
+              <img src="assets/spirited.png" alt="right arrow" />
+            </div>
+            <h3>COMMEDY</h3>
+          </div>
+          <div class="slider-item">
+            <div class="box">
+              <img src="assets/terrifier.png" alt="right arrow" />
+            </div>
+            <h3>Horror</h3>
+          </div>
+          <div class="slider-item">
+            <div class="box">
+              <h2>4</h2>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="box">
+              <h2>5</h2>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="box">
+              <h2>6</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="control">
+        <button id="prev">
+          <img src="assets/left.svg" alt="left arrow" />
+        </button>
+        <button id="next">
+          <img src="assets/right.svg" alt="right arrow" />
+        </button>
+      </div>
+    </div>
+    <div class="categoryList">
+      <div class="footer-widget">
+        <ul>
+          <li><a href="#">ACTION</a></li>
+          <li><a href="#">ADVENTURE</a></li>
+          <li><a href="#">ANIMATION</a></li>
+          <li><a href="#">BIOGRAPHY</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">COMEDY</a></li>
+          <li><a href="#">CRIME</a></li>
+          <li><a href="#">DRAMA</a></li>
+          <li><a href="#">DOCUMENTARY</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">FANTASY</a></li>
+          <li><a href="#">FAMILY</a></li>
+          <li><a href="#">HORROR</a></li>
+          <li><a href="#">HISTORY</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">MUSIC</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">POLITICS</a></li>
+          <li><a href="#">ROMANCE</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">SERIES</a></li>
+          <li><a href="#">SCI-FI</a></li>
+          <li><a href="#">TALK</a></li>
+          <li><a href="#">TY MOVIE</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">TRILLER</a></li>
+          <li><a href="#">WESTERN</a></li>
+          <li><a href="#">WAR</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
   </body>
 </html>
